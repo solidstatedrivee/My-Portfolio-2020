@@ -1425,7 +1425,10 @@ p {
 }
 @media only screen and (max-width: 500px) {
   .header-container .hamburger-menu a {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  .header-container .container p {
+    font-size: 1em;
   }
 }
 
