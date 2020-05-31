@@ -1441,6 +1441,7 @@ p {
 
   .objective {
     margin-top: 0;
+    height: 500px;
   }
   .objective p {
     font-size: 1em;
