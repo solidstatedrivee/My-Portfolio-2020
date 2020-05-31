@@ -50,7 +50,7 @@
                 top: 10px;
                 display: inline-block;
                 width: 1px;
-                height: 50px;
+                height: 35px;
                 background: white;
                 animation: blinking 750ms infinite;
             }
@@ -1526,6 +1526,8 @@
     
     @media only screen and (max-width: 500px) {
         .header-container {
+            height: unset;
+            margin-bottom: 200px;
             .hamburger-menu {
                 a {
                     font-size: 1.5em;
@@ -1534,7 +1536,18 @@
             .container {
                 p {
                     font-size: 1em;
+                    width: 100%;
                 }
+            }
+            .header-graphic {
+                bottom: -48%;
+            }
+        }
+        .objective {
+            margin-top: 0;
+            p {
+                font-size: 1em;
+                line-height: 25px;
             }
         }
     }
