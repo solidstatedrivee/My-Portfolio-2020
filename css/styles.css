@@ -1423,5 +1423,10 @@ p {
     width: 100%;
   }
 }
+@media only screen and (max-width: 500px) {
+  .header-container .hamburger-menu a {
+    font-size: 2em;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
