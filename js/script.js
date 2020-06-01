@@ -135,14 +135,18 @@ hamburgerNav.addEventListener("click", function() {
 
 //show description of works when clicked, mostly for mobile | lines 136-146
 let workBoxContainer = document.getElementsByClassName("box");
+let closeDescriptionBox = document.getElementsByClassName("close-description-box");
 for (let i = 0; i < workBoxContainer.length; i++) {
-    workBoxContainer[i].addEventListener("touchstart", function() {
+    closeDescriptionBox[i].addEventListener("click", function() {
+        workBoxContainer[i].classList.remove("box-active");
+    });
+    workBoxContainer[i].addEventListener("click", function() {
         if (workBoxContainer[i].classList.contains("box-active")) {
             workBoxContainer[i].classList.remove("box-active");
         } else {
             workBoxContainer[i].classList.add("box-active");
         }
-    })
+    });
 }
 
 //dynamically insert the copyright date so i don't have to manually change it
