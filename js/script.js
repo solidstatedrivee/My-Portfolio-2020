@@ -135,11 +135,11 @@ hamburgerNav.addEventListener("click", function() {
 
 //show description of works when clicked, mostly for mobile | lines 136-146
 let workBoxContainer = document.getElementsByClassName("box");
-let closeDescriptionBox = document.getElementsByClassName("close-description-box");
+// let closeDescriptionBox = document.getElementsByClassName("close-description-box");
 for (let i = 0; i < workBoxContainer.length; i++) {
-    closeDescriptionBox[i].addEventListener("click", function() {
-        workBoxContainer[i].classList.remove("box-active");
-    });
+    // closeDescriptionBox[i].addEventListener("click", function() {
+    //     workBoxContainer[i].classList.remove("box-active");
+    // });
     workBoxContainer[i].addEventListener("click", function() {
         if (workBoxContainer[i].classList.contains("box-active")) {
             workBoxContainer[i].classList.remove("box-active");
@@ -154,3 +154,26 @@ let yearClass = document.getElementsByClassName("year")[0];
 let date = new Date();
 let year = date.getFullYear();
 yearClass.innerHTML = year;
+
+function hasTouch() {
+    return 'ontouchstart' in document.documentElement ||
+        navigator.maxTouchPoints > 0 ||
+        navigator.msMaxTouchPoints > 0;
+}
+
+if (hasTouch()) { // remove all the :hover stylesheets
+    try { // prevent exception on browsers not supporting DOM styleSheets properly
+        for (var si in document.styleSheets) {
+            var styleSheet = document.styleSheets[si];
+            if (!styleSheet.rules) continue;
+
+            for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+                if (!styleSheet.rules[ri].selectorText) continue;
+
+                if (styleSheet.rules[ri].selectorText.match(':hover')) {
+                    styleSheet.deleteRule(ri);
+                }
+            }
+        }
+    } catch (ex) {}
+}
