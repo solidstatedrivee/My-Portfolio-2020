@@ -136,7 +136,7 @@ hamburgerNav.addEventListener("click", function() {
 //show description of works when clicked, mostly for mobile | lines 136-146
 let workBoxContainer = document.getElementsByClassName("box");
 for (let i = 0; i < workBoxContainer.length; i++) {
-    workBoxContainer[i].addEventListener("click", function() {
+    workBoxContainer[i].addEventListener("touchstart", function() {
         if (workBoxContainer[i].classList.contains("box-active")) {
             workBoxContainer[i].classList.remove("box-active");
         } else {
