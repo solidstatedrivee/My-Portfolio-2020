@@ -144,3 +144,9 @@ for (let i = 0; i < workBoxContainer.length; i++) {
         }
     })
 }
+
+//dynamically insert the copyright date so i don't have to manually change it
+let yearClass = document.getElementsByClassName("year")[0];
+let date = new Date();
+let year = date.getFullYear();
+yearClass.innerHTML = year;
