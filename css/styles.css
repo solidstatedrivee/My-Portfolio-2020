@@ -1541,6 +1541,24 @@ p {
   .footer {
     height: 100vh;
   }
+  .footer .footer-content {
+    width: 100%;
+  }
+  .footer .footer-content .footer-social-container {
+    display: block;
+  }
+  .footer .footer-content .footer-social-container .sm-footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer-content .footer-social-container .sm-footer-container .sm-top-row {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer-content .footer-social-container .sm-footer-container .sm-bottom-row {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

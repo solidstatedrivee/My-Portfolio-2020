@@ -1660,5 +1660,23 @@
         }
         .footer {
             height: 100vh;
+            .footer-content {
+                width: 100%;
+                .footer-social-container {
+                    display: block;
+                    .sm-footer-container {
+                        display: flex;
+                        flex-direction: column;
+                        .sm-top-row {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        .sm-bottom-row {
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
         }
     }
