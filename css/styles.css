@@ -1537,6 +1537,10 @@ p {
   .coursework-info .coursework-cards .coursework-card .course-number {
     font-size: 1em;
   }
+
+  .footer {
+    height: 100vh;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
