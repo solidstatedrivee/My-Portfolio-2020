@@ -1551,4 +1551,33 @@
                 line-height: 25px;
             }
         }
+        .skills {
+            .skills-container {
+                .skills-card {
+                    .design-tools-container {
+                        flex-direction: column;
+                        .design-tools-left {
+                            border-right: none;
+                        }
+                    }
+                    .languages-tools-container {
+                        flex-direction: column;
+                        .languages-tools-left {
+                            ul {
+                                border-right: none;
+                            }
+                        }
+                    }
+                    .graduate-info-container {
+                        flex-direction: column;
+                        .graduate-first-column {
+                            border-right: none;
+                        }
+                        .graduate-second-column {
+                            border-right: none;
+                        }
+                    }
+                }
+            }
+        }
     }

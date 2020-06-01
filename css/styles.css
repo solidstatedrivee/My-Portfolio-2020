@@ -1447,6 +1447,28 @@ p {
     font-size: 1em;
     line-height: 25px;
   }
+
+  .skills .skills-container .skills-card .design-tools-container {
+    flex-direction: column;
+  }
+  .skills .skills-container .skills-card .design-tools-container .design-tools-left {
+    border-right: none;
+  }
+  .skills .skills-container .skills-card .languages-tools-container {
+    flex-direction: column;
+  }
+  .skills .skills-container .skills-card .languages-tools-container .languages-tools-left ul {
+    border-right: none;
+  }
+  .skills .skills-container .skills-card .graduate-info-container {
+    flex-direction: column;
+  }
+  .skills .skills-container .skills-card .graduate-info-container .graduate-first-column {
+    border-right: none;
+  }
+  .skills .skills-container .skills-card .graduate-info-container .graduate-second-column {
+    border-right: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
