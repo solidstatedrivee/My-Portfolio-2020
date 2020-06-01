@@ -1609,6 +1609,25 @@
             }
             .testimonial-card-container {
                 height: 75vh;
+                .testimonial-card {
+                    .testimonial-avatar {
+                        height: 100px;
+                        width: 100px;
+                    }
+                    .quote {
+                        font-size: 1em;
+                        line-height: 25px;
+                    }
+                    .testimonial-name {
+                        font-size: 1.2em;
+                    }
+                    .testimonial-name::before {
+                        width: 50px;
+                    }
+                    .testimonial-name::after {
+                        width: 50px;
+                    }
+                }
             }
         }
     }

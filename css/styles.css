@@ -1494,6 +1494,23 @@ p {
   .testimonials .testimonial-card-container {
     height: 75vh;
   }
+  .testimonials .testimonial-card-container .testimonial-card .testimonial-avatar {
+    height: 100px;
+    width: 100px;
+  }
+  .testimonials .testimonial-card-container .testimonial-card .quote {
+    font-size: 1em;
+    line-height: 25px;
+  }
+  .testimonials .testimonial-card-container .testimonial-card .testimonial-name {
+    font-size: 1.2em;
+  }
+  .testimonials .testimonial-card-container .testimonial-card .testimonial-name::before {
+    width: 50px;
+  }
+  .testimonials .testimonial-card-container .testimonial-card .testimonial-name::after {
+    width: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
