@@ -447,11 +447,12 @@
                         padding: 5px;
                         border-radius: 25px;
                         transition: $hover;
+                        position: relative;
                         span {
                             display: inline-block;
                             width: 15px;
                             height: 9px;
-                            position: relative;
+                            position: absolute;
                             transform: translateY(-50%);
                             top: 50%;
                         }

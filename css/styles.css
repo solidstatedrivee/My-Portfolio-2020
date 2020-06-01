@@ -434,12 +434,13 @@ p {
   padding: 5px;
   border-radius: 25px;
   transition: all 250ms ease;
+  position: relative;
 }
 .work .work-container .box .description-box a span {
   display: inline-block;
   width: 15px;
   height: 9px;
-  position: relative;
+  position: absolute;
   transform: translateY(-50%);
   top: 50%;
 }
