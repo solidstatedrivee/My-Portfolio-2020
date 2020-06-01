@@ -1427,6 +1427,10 @@ p {
   }
 }
 @media only screen and (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
+
   .header-container {
     height: unset;
     margin-bottom: 200px;
