@@ -413,6 +413,7 @@ p {
   flex-direction: column;
   opacity: 0;
   transition: all 500ms ease;
+  border-radius: 25px;
 }
 .work .work-container .box .description-box p {
   width: 90%;
