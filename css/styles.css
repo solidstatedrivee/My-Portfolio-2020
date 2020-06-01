@@ -1491,6 +1491,9 @@ p {
     width: 95%;
     line-height: 25px;
   }
+  .testimonials .testimonial-card-container {
+    height: 75vh;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
