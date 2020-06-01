@@ -1630,4 +1630,17 @@
                 }
             }
         }
+        .coursework {
+            height: 500px;
+            .coursework-description {
+                h2 {
+                    font-size: 2em;
+                    background: none;
+                }
+                p {
+                    font-size: 1em;
+                    line-height: 25px;
+                }
+            }
+        }
     }

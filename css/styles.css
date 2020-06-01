@@ -1511,6 +1511,18 @@ p {
   .testimonials .testimonial-card-container .testimonial-card .testimonial-name::after {
     width: 50px;
   }
+
+  .coursework {
+    height: 500px;
+  }
+  .coursework .coursework-description h2 {
+    font-size: 2em;
+    background: none;
+  }
+  .coursework .coursework-description p {
+    font-size: 1em;
+    line-height: 25px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
