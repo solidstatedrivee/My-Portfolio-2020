@@ -1433,11 +1433,11 @@ p {
   }
   .header-container .container p {
     font-size: 1em;
-    width: 100%;
+    width: 95%;
     line-height: 25px;
   }
   .header-container .header-graphic {
-    bottom: -48%;
+    bottom: -51%;
   }
 
   .objective {
@@ -1447,6 +1447,7 @@ p {
   .objective p {
     font-size: 1em;
     line-height: 25px;
+    width: 95%;
   }
 
   .skills .skills-container .skills-card .design-tools-container {
@@ -1469,6 +1470,13 @@ p {
   }
   .skills .skills-container .skills-card .graduate-info-container .graduate-second-column {
     border-right: none;
+  }
+
+  .work .works-description h2 {
+    font-size: 1.5em;
+  }
+  .work .works-description p {
+    font-size: 1em;
   }
 }
 
