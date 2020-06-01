@@ -1640,6 +1640,20 @@
                 p {
                     font-size: 1em;
                     line-height: 25px;
+                    width: 95%;
+                }
+            }
+        }
+        .coursework-info {
+            .coursework-cards {
+                .coursework-card {
+                    margin-bottom: 25px;
+                    .course-title {
+                        font-size: 1.5em;
+                    }
+                    .course-number {
+                        font-size: 1em;
+                    }
                 }
             }
         }
