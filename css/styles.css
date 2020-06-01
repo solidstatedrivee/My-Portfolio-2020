@@ -1482,6 +1482,15 @@ p {
     font-size: 1em;
     width: 95%;
   }
+
+  .testimonials .testimonial-description h2 {
+    font-size: 1.5em;
+  }
+  .testimonials .testimonial-description p {
+    font-size: 1em;
+    width: 95%;
+    line-height: 25px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1596,4 +1596,16 @@
                 }
             }
         }
+        .testimonials {
+            .testimonial-description {
+                h2 {
+                    font-size: 1.5em;
+                }
+                p {
+                    font-size: 1em;
+                    width: 95%;
+                    line-height: 25px;
+                }
+            }
+        }
     }
