@@ -1525,6 +1525,9 @@ p {
     width: 95%;
   }
 
+  .coursework-info {
+    height: 2100px;
+  }
   .coursework-info .coursework-cards .coursework-card {
     margin-bottom: 25px;
   }
