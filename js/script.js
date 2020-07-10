@@ -157,7 +157,7 @@ function hasTouch() {
         navigator.msMaxTouchPoints > 0;
 }
 
-if (hasTouch() && window.matchMedia("(max-width: 500px)").matches) { // remove all the :hover stylesheets
+if (hasTouch() && window.matchMedia("(max-width: 500px)").matches) { // remove all the :hover styles
     try { // prevent exception on browsers not supporting DOM styleSheets properly
         for (var si in document.styleSheets) {
             var styleSheet = document.styleSheets[si];
