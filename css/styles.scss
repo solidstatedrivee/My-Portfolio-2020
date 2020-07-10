@@ -965,6 +965,15 @@
                 // border: $dev-border;
                 display: flex;
                 justify-content: center;
+                .sm-footer-container {
+                    display: flex;
+                    .sm-top-row {
+                        display: flex;
+                    }
+                    .sm-bottom-row {
+                        display: flex;
+                    }
+                }
                 .i-container {
                     border: 2px solid rgba(11, 43, 81, .5);
                     width: 50px;

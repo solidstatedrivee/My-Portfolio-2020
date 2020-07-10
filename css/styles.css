@@ -920,6 +920,15 @@ p {
   display: flex;
   justify-content: center;
 }
+.footer .footer-content .footer-social-container .sm-footer-container {
+  display: flex;
+}
+.footer .footer-content .footer-social-container .sm-footer-container .sm-top-row {
+  display: flex;
+}
+.footer .footer-content .footer-social-container .sm-footer-container .sm-bottom-row {
+  display: flex;
+}
 .footer .footer-content .footer-social-container .i-container {
   border: 2px solid rgba(11, 43, 81, 0.5);
   width: 50px;
