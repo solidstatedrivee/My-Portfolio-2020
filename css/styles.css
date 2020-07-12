@@ -1465,6 +1465,10 @@ p {
     height: unset;
     margin-bottom: 200px;
   }
+  .header-container .hamburger-menu .logo {
+    width: 150px;
+    height: 150px;
+  }
   .header-container .hamburger-menu a {
     font-size: 1.5em;
   }

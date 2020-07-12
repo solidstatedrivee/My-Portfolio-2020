@@ -1565,6 +1565,10 @@
             height: unset;
             margin-bottom: 200px;
             .hamburger-menu {
+                .logo {
+                    width: 150px;
+                    height: 150px;
+                }
                 a {
                     font-size: 1.5em;
                 }
