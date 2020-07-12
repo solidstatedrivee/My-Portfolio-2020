@@ -113,6 +113,9 @@
         transition: $hover;
         z-index: 100;
         overflow: hidden;
+        .logo {
+            display: none;
+        }
         .open-side-nav {
             position: relative;
             color: white;
@@ -173,6 +176,15 @@
         top: 0;
         width: 175px !important;
         border-radius: 0 10px 10px 0;
+        .logo {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 125px;
+            width: 125px;
+            display: block;
+        }
         .open-side-nav {
             display: none;
         }
@@ -1377,6 +1389,12 @@
                 justify-content: center;
                 align-items: center;
                 transition: all 250ms ease;
+                .logo {
+                    width: 200px;
+                    height: 200px;
+                    opacity: 0;
+                    margin-bottom: 25px;
+                }
                 a {
                     color: $green;
                     text-decoration: none;
@@ -1393,6 +1411,9 @@
             }
             .hamburger-menu-visible {
                 width: 50vw;
+                .logo {
+                    opacity: 1;
+                }
                 a {
                     opacity: 1;
                     display: inline-block;
