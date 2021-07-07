@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Slab&display=swap");
-$grey: #648173;
+$grey: #424242;
 $green: #00ff7e;
-$darker-grey: rgb(68, 83, 74);
+$darker-grey: rgb(77, 77, 77);
 $blue: rgb(11, 43, 81);
 $raleway: Raleway, serif;
 $roboto: Roboto Slab, sans-serif;
@@ -228,9 +228,9 @@ p {
   position: relative;
   .header-graphic {
     position: absolute;
-    width: 50%;
-    height: 50%;
-    bottom: 0px;
+    width: 40%;
+    height: 40%;
+    bottom: 12px;
     transform: translateX(-50%);
     left: 50%;
   }
@@ -249,12 +249,12 @@ p {
     font-weight: 300;
     position: relative;
     top: 25%;
-    left: 18.75%;
+    left: 10%;
     font-size: 3em;
     margin: 0;
   }
   p {
-    margin: 0;
+    margin: 20px 0;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -346,7 +346,7 @@ p {
       display: inline-block;
       position: relative;
       font-size: 3em;
-      left: 18.75%;
+      left: 10%;
       margin: 0;
     }
     p {
@@ -388,10 +388,20 @@ p {
     grid-template-rows: repeat(2, 35vh);
     grid-gap: 15px;
     .box {
-      border-radius: 25px;
+      border-radius: 10px;
       overflow: hidden;
       position: relative;
       cursor: pointer;
+      .box-text {
+        // border: $dev-border;
+        position: absolute;
+        top: 100%;
+        transform: translateY(-100%);
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.25em;
+      }
       .image-box {
         // border: $dev-border;
         width: 100%;
@@ -404,13 +414,13 @@ p {
         transition: $hover;
       }
       .image0 {
-        background-image: url("../images/chambercartelsite.jpg");
+        background-image: url("../images/react-weather-app.jpg");
       }
       .image1 {
-        background-image: url("../images/oldportfoliosite.jpg");
+        background-image: url("../images/react-recipe-app.jpg");
       }
       .image2 {
-        background-image: url("../images/eltorerosite.jpg");
+        background-image: url("../images/react-underdog-grooming.jpg");
       }
       .image3 {
         background-image: url("../images/js-calculator-preview.jpg");
@@ -433,7 +443,7 @@ p {
         flex-direction: column;
         opacity: 0;
         transition: all 500ms ease;
-        border-radius: 25px;
+        border-radius: 10px;
         p {
           width: 90%;
           font-size: 1.25em;
@@ -475,8 +485,9 @@ p {
       position: absolute;
       top: 0;
       left: 0;
-      background: $green;
-      opacity: 0.25;
+      // background: rgb(26, 26, 26);
+      background: linear-gradient(to bottom, rgba(0,0,0,.25), rgba(0,255,126,.6));
+      // opacity: 0.25;
       z-index: 0;
     }
     .box:hover {
@@ -753,7 +764,7 @@ p {
       display: inline-block;
       position: relative;
       font-size: 3em;
-      left: 18.75%;
+      left: 10%;
       margin: 0;
       // border: $dev-border;
       // background: rgba(11, 43, 81, .25)
@@ -824,7 +835,7 @@ p {
         // text-align: center;
         margin: 0;
         padding: 0;
-        background: hsl(151, 13%, 40%);
+        background: hsl(0, 0%, 35%);
         position: relative;
         .svg-pointer {
           width: 25px;
@@ -834,7 +845,7 @@ p {
           transform: translate(-100%, -100%);
           top: 0;
           left: 50%;
-          fill: hsl(151, 13%, 40%);
+          fill: hsl(0, 0, 35%);
         }
         svg {
           width: 25px;
@@ -844,7 +855,7 @@ p {
           transform: translate(-100%, -100%);
           top: 0;
           left: 50%;
-          fill: hsl(151, 13%, 40%);
+          fill: hsl(0, 0, 35%);
         }
         .course-item {
           // border: $dev-border;

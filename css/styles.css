@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #648173;
+  background: #424242;
   position: relative;
   margin: 0;
   padding: 0;
@@ -221,9 +221,9 @@ p {
 }
 .header-container .header-graphic {
   position: absolute;
-  width: 50%;
-  height: 50%;
-  bottom: 0px;
+  width: 40%;
+  height: 40%;
+  bottom: 12px;
   transform: translateX(-50%);
   left: 50%;
 }
@@ -242,12 +242,12 @@ p {
   font-weight: 300;
   position: relative;
   top: 25%;
-  left: 18.75%;
+  left: 10%;
   font-size: 3em;
   margin: 0;
 }
 .objective p {
-  margin: 0;
+  margin: 20px 0;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -259,10 +259,10 @@ p {
 }
 
 .skills .skills-container {
-  border: 1px solid #44534a;
+  border: 1px solid #4d4d4d;
   width: 90%;
   margin: 0 auto;
-  background: #648173;
+  background: #424242;
   margin-top: -100px;
   border-radius: 25px;
   display: flex;
@@ -319,10 +319,10 @@ p {
   text-shadow: 2px 2px 2px #2b2b2b;
 }
 .skills .skills-container .skills-card:nth-of-type(1) {
-  border-right: 1px solid #44534a;
+  border-right: 1px solid #4d4d4d;
 }
 .skills .skills-container .skills-card:nth-of-type(2) {
-  border-right: 1px solid #44534a;
+  border-right: 1px solid #4d4d4d;
 }
 
 .work {
@@ -338,7 +338,7 @@ p {
   display: inline-block;
   position: relative;
   font-size: 3em;
-  left: 18.75%;
+  left: 10%;
   margin: 0;
 }
 .work .works-description p {
@@ -380,10 +380,19 @@ p {
   grid-gap: 15px;
 }
 .work .work-container .box {
-  border-radius: 25px;
+  border-radius: 10px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
+}
+.work .work-container .box .box-text {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
 }
 .work .work-container .box .image-box {
   width: 100%;
@@ -396,13 +405,13 @@ p {
   transition: all 250ms ease;
 }
 .work .work-container .box .image0 {
-  background-image: url("../images/chambercartelsite.jpg");
+  background-image: url("../images/react-weather-app.jpg");
 }
 .work .work-container .box .image1 {
-  background-image: url("../images/oldportfoliosite.jpg");
+  background-image: url("../images/react-recipe-app.jpg");
 }
 .work .work-container .box .image2 {
-  background-image: url("../images/eltorerosite.jpg");
+  background-image: url("../images/react-underdog-grooming.jpg");
 }
 .work .work-container .box .image3 {
   background-image: url("../images/js-calculator-preview.jpg");
@@ -425,7 +434,7 @@ p {
   flex-direction: column;
   opacity: 0;
   transition: all 500ms ease;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 .work .work-container .box .description-box p {
   width: 90%;
@@ -466,8 +475,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: #00ff7e;
-  opacity: 0.25;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 255, 126, 0.6));
   z-index: 0;
 }
 .work .work-container .box:hover .description-box {
@@ -583,7 +591,7 @@ p {
   text-shadow: 2px 2px 2px #2b2b2b;
 }
 .testimonials .testimonial-card-container {
-  border: 1px solid #44534a;
+  border: 1px solid #4d4d4d;
   width: 90%;
   height: 50vh;
   margin: 0 auto;
@@ -630,7 +638,7 @@ p {
   left: 0;
   font-size: 2em;
   text-shadow: none;
-  color: #44534a;
+  color: #4d4d4d;
   z-index: -100;
 }
 .testimonials .testimonial-card-container .testimonial-card .quote .fa-quote-right {
@@ -639,7 +647,7 @@ p {
   right: 0;
   font-size: 2em;
   text-shadow: none;
-  color: #44534a;
+  color: #4d4d4d;
   z-index: -100;
 }
 .testimonials .testimonial-card-container .testimonial-card .testimonial-name {
@@ -656,7 +664,7 @@ p {
   display: inline-block;
   height: 1px;
   width: 100px;
-  background: #44534a;
+  background: #4d4d4d;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -667,7 +675,7 @@ p {
   display: inline-block;
   height: 1px;
   width: 100px;
-  background: #44534a;
+  background: #4d4d4d;
   position: absolute;
   transform: translate(50%, -50%);
   top: 50%;
@@ -695,7 +703,7 @@ p {
   width: 15px;
   height: 15px;
   display: inline-block;
-  border: 1px solid #44534a;
+  border: 1px solid #4d4d4d;
   border-radius: 50%;
   margin: 0 7.5px;
   cursor: pointer;
@@ -733,7 +741,7 @@ p {
   display: inline-block;
   position: relative;
   font-size: 3em;
-  left: 18.75%;
+  left: 10%;
   margin: 0;
   background: rgba(255, 255, 255, 0.625);
 }
@@ -762,7 +770,7 @@ p {
 }
 .coursework-info .coursework-cards .coursework-card {
   border: 1px solid #597366;
-  background: #648173;
+  background: #424242;
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -797,7 +805,7 @@ p {
   color: white;
   margin: 0;
   padding: 0;
-  background: #597366;
+  background: #595959;
   position: relative;
 }
 .coursework-info .coursework-cards .coursework-card .course-list .svg-pointer {
@@ -807,7 +815,7 @@ p {
   transform: translate(-100%, -100%);
   top: 0;
   left: 50%;
-  fill: #597366;
+  fill: #595959;
 }
 .coursework-info .coursework-cards .coursework-card .course-list svg {
   width: 25px;
@@ -816,7 +824,7 @@ p {
   transform: translate(-100%, -100%);
   top: 0;
   left: 50%;
-  fill: #597366;
+  fill: #595959;
 }
 .coursework-info .coursework-cards .coursework-card .course-list .course-item {
   list-style-type: none;
