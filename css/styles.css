@@ -393,6 +393,7 @@ p {
   width: 100%;
   text-align: center;
   font-size: 1.25em;
+  text-transform: capitalize;
 }
 .work .work-container .box .image-box {
   width: 100%;
@@ -414,10 +415,10 @@ p {
   background-image: url("../images/react-underdog-grooming.jpg");
 }
 .work .work-container .box .image3 {
-  background-image: url("../images/js-calculator-preview.jpg");
+  background-image: url("../images/heroscrn.jpg");
 }
 .work .work-container .box .image4 {
-  background-image: url("../images/hpplussite.jpg");
+  background-image: url("../images/caleb-herron-site.jpg");
 }
 .work .work-container .box .image5 {
   background-image: url("../images/brick-breaker.jpg");
